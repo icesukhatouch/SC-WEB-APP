@@ -1,0 +1,206 @@
+html,
+body {
+  font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  height: 100%;
+  color: #2E4172;
+}
+hr.hr-top{
+  border-top: 5px solid #2E4172;
+}
+hr.hr-top-white{
+  border-top: 5px solid white;
+}
+.edit-container{
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.edit-fluid{
+  background: #FCCB2D;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.btn-signup {
+  border: 10px solid #D93C3C;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 60px; 
+  color: #D93C3C;
+}
+
+
+/***** navbar *****/
+.navbar-brand>img{
+  width: 40px;
+  height: 35px;
+  margin-top: -7px; 
+  position: relative;
+  display: block;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #2E4172;
+  display: block;
+  font-size: 15px;
+}
+.navbar-default .navbar-brand{
+  color: #2E4172;
+  display: block;
+  font-size: 30px;
+}
+.navbar-default .navbar-brand:hover {
+  color: #2E4172;
+}
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>li>a:hover, 
+.navbar-default .navbar-nav>.open>a:hover{
+  color: #D93C3C;
+  background-color: #FCCB2D;
+}
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
+  text-align: center;
+  float: left;
+  margin-top: 2px;
+  margin-left: 15px;
+  border: transparent;
+  background: transparent;
+  z-index: 2;
+}
+.dropdown-menu >li>a.bg-facebook {
+  color: white;
+  background: #3b5998;
+}
+.dropdown-menu >li>a.bg-google {
+  color: white;
+  background: #d62d20;
+}
+.dropdown-menu >li>a.bg-facebook:hover{
+  background: #2A3F6B ;
+}
+.dropdown-menu >li>a.bg-google:hover{
+  background: #C72A1E ;
+}
+.navbar-default .userbar, 
+.navbar-default .userbar:focus, 
+.navbar-default .userbar:hover{
+  float: right;
+  padding: 5px;
+  margin: 0 auto;
+  width: 100px;
+  position: absolute;
+  right: -10px;
+}
+
+#userbar-coll{
+  visibility: hidden;
+  position: absolute;
+}
+
+
+@media screen and (max-width: 767px){
+    .navbar-brand>img{
+      visibility: hidden;
+    }
+    .navbar-brand{
+      width: 100%;
+      position: absolute;  
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+      color: #2E4172;
+      text-align: center;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a.bg-facebook {
+      color: white;
+      background: #3b5998;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a.bg-google {
+      color: white;
+      background: #d62d20;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+      color: #D93C3C;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a.bg-facebook:hover {
+      color: white;
+      background: #2A3F6B ;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a.bg-google:hover {
+      color: white;
+      background: #C72A1E ;
+    }
+    .edit-fluid{
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+    .navbar-default .navbar-brand {
+      font-size: 22px;
+    }
+    #userbar-coll{
+      visibility: visible;
+    }
+}
+/***** navbar *****/
+
+/***** carousel *****/
+.carousel,
+.item,
+.active {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.carousel-textbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+    -moz-transform: translate3d(-50%,-50%,0);
+    -ms-transform: translate3d(-50%,-50%,0);
+    -o-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+}
+
+.carousel-textbox>h1 {
+  font-size: 60px;
+
+}
+/******Article*******/
+.img-center,
+.img-center>img{
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+}
+
+/******Article*******/
+
+/******About us*******/
+#aboutus{
+  background: #D93C3C;
+  color: white;
+}
+
+/******About us*******/
+
+
