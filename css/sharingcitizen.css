@@ -142,11 +142,17 @@ hr.hr-top-white{
     #userbar-coll{
       visibility: visible;
     }
-    .profile-name>h2{
+    h2{
       font-size: 15px;
     }
-    .sc-lvl{
-      font-size: 10px;
+    h3{
+      font-size: 12px;
+    }
+    p{
+      font-size: 8px;
+    }
+    .profile{
+      line-height: 0.5em;
     }
 }
 /***** navbar *****/
@@ -194,7 +200,7 @@ hr.hr-top-white{
 /******Article*******/
 .img-center,
 .img-center>img{
-  margin: 0 auto;
+  margin: 5px auto;
   display: block;
   width: 70%;
 }
@@ -220,7 +226,6 @@ hr.hr-top-white{
   border-radius: 5px;
   color: white;
   margin-top: 80px;
-  margin-bottom: 20px;
   margin-left: -20px;
   padding-right: 0;
   width: 40%;
@@ -232,13 +237,15 @@ hr.hr-top-white{
 .profile{
   display: inline-block;
   border-right: #2E4172 solid 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .exp-bar{
   background-color: #D93C3C;
 }
 .exp{
   text-align: left;
-  padding-left: 20px;
+  padding-left: 15px;
 }
 .quote{
   border: #2E4172 solid 1px;
