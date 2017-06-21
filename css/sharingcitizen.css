@@ -1,5 +1,6 @@
 html,
-body {
+body,
+a {
   font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
   height: 100%;
@@ -12,14 +13,13 @@ hr.hr-top-white{
   border-top: 5px solid white;
 }
 .edit-container{
-  padding-top: 60px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 .edit-fluid{
   background: #FCCB2D;
-  padding-top: 10px;
-  padding-bottom: 10px;
   text-align: center;
+  padding: 5px 30px;
 }
 
 .btn-signup {
@@ -142,6 +142,12 @@ hr.hr-top-white{
     #userbar-coll{
       visibility: visible;
     }
+    .profile-name>h2{
+      font-size: 15px;
+    }
+    .sc-lvl{
+      font-size: 10px;
+    }
 }
 /***** navbar *****/
 
@@ -190,17 +196,52 @@ hr.hr-top-white{
 .img-center>img{
   margin: 0 auto;
   display: block;
-  width: 50%;
+  width: 70%;
 }
 
 /******Article*******/
 
 /******About us*******/
-#aboutus{
+.about-us{
   background: #D93C3C;
   color: white;
 }
 
 /******About us*******/
+.rownav{
+  height: 50px;
+  background-color: white;
+}
 
+/******Profile*******/
+
+.profile-name{
+  background-color: #D93C3C;
+  border-radius: 5px;
+  color: white;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  margin-left: -20px;
+  padding-right: 0;
+  width: 40%;
+
+}
+.profile-name>h2{
+  margin: 10px 5px 10px 10px;
+}
+.profile{
+  display: inline-block;
+  border-right: #2E4172 solid 1px;
+}
+.exp-bar{
+  background-color: #D93C3C;
+}
+.exp{
+  text-align: left;
+  padding-left: 20px;
+}
+.quote{
+  border: #2E4172 solid 1px;
+  border-radius: 10px;
+}
 
