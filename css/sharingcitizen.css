@@ -5,6 +5,7 @@ a {
   overflow-x: hidden;
   height: 100%;
   color: #2E4172;
+  word-wrap:break-word;
 }
 hr.hr-top{
   border-top: 5px solid #2E4172;
@@ -13,7 +14,6 @@ hr.hr-top-white{
   border-top: 5px solid white;
 }
 .edit-container{
-  padding-top: 20px;
   padding-bottom: 20px;
 }
 .edit-fluid{
@@ -27,6 +27,9 @@ hr.hr-top-white{
   border-radius: 5px;
   background-color: white;
   font-size: 60px; 
+  color: #D93C3C;
+}
+.color-red{
   color: #D93C3C;
 }
 
@@ -198,11 +201,10 @@ hr.hr-top-white{
 
 }
 /******Article*******/
-.img-center,
-.img-center>img{
-  margin: 5px auto;
-  display: block;
-  width: 70%;
+.img-center{
+  margin: 1em 1em;
+  width: 20%;
+  display: inline-block;
 }
 
 /******Article*******/
@@ -211,6 +213,11 @@ hr.hr-top-white{
 .about-us{
   background: #D93C3C;
   color: white;
+}
+.about-us-name{
+  margin: 1em 1em 1em 2em ;
+  display: inline-block;
+
 }
 
 /******About us*******/
@@ -250,5 +257,11 @@ hr.hr-top-white{
 .quote{
   border: #2E4172 solid 1px;
   border-radius: 10px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.follow{
+  border-left: #D93C3C solid 1px;
+  border-right: #D93C3C solid 1px;
 }
 
