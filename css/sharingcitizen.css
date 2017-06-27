@@ -14,7 +14,7 @@ hr.hr-top-white{
   border-top: 5px solid white;
 }
 .edit-container{
-  padding-bottom: 20px;
+  padding: 0;
 }
 .edit-fluid{
   background: #FCCB2D;
@@ -161,13 +161,13 @@ hr.hr-top-white{
 /***** navbar *****/
 
 /***** carousel *****/
-.carousel,
-.item,
-.active {
-  height: 100%;
+.carousel{
+  height: 95%;
 }
 
-.carousel-inner {
+.carousel-inner,
+.item,
+.active {
   height: 100%;
 }
 .fill {
@@ -264,4 +264,32 @@ hr.hr-top-white{
   border-left: #D93C3C solid 1px;
   border-right: #D93C3C solid 1px;
 }
+
+/******Profile*******/
+
+/******Main Content*******/
+.maincontent{
+  padding: 0;
+}
+.content:hover{
+  opacity: 0.5;
+}
+.headcontent-project{
+  background: #FCCB2D;
+  margin: 0;
+  padding: 1.5em 0;
+}
+.headcontent-article{
+  background: #D93C3C;
+  color: white;
+  margin: 0;
+  padding: 1.5em 0;
+}
+.headcontent-people{
+  background: #2A3F6B;
+  color: white;
+  margin: 0;
+  padding: 1.5em 0;
+}
+
 
