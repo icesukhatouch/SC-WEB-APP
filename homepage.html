@@ -33,47 +33,54 @@
 </head>
 
 <body>
-    <div id="page-top">
-    <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid edit-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
-                  </button>
-                  <a class="navbar-brand" href="#page-top"><img src="img/logo_only/sc_only_blue.png" class="img-responsive"></a>
-                  <a class="navbar-brand" href="#page-top">Sharing Citizen</a>
-
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="navbar-collapse collapse " id="mynavbar">
-                  <ul class="nav navbar-nav">
-                    <li><a href="connect.html">Connect</a></li>
-                    <li><a href="#article">Article</a></li>
-                    <li><a href="#aboutus">About Us</a></li>
-                  </ul>
-                  
-                  <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" >Sign In <i class="fa fa-sign-in" aria-hidden="true"></i></a>
-                          <ul class="dropdown-menu">
-                            <li><a class="bg-facebook" href=""></i>Sign in with Facebook</a></li>
-                            <li><a class="bg-google" href=""></i>Sign in with Google</a></li>
-                          </ul>
-                        </li>
-                    </ul>
-
-                </div><!-- /.navbar-collapse -->
-                    
-            </div><!-- /.container-fluid -->
+    
+    <!-- test nav -->
+    <div id="wrapper">
+        <div class="overlay"></div>
+    
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                       <img src="img/logo_only/sc_only_yellow.png" width="30%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Project</a>
+                </li>
+                <li>
+                    <a href="#">Article</a>
+                </li>
+                <li>
+                    <a href="#">People</a>
+                </li>
+                <li>
+                    <a href="#">About us</a>
+                </li>
+            </ul>
         </nav>
-    </div>
+        <!-- /#sidebar-wrapper -->
 
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+    			<span class="hamb-middle"></span>
+				<span class="hamb-bottom"></span>
+            </button>  
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+    <!-- test nav -->
      <!-- Full Page Image Background Carousel Header -->
     <header id="myCarousel" class="carousel slide">
+         
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
