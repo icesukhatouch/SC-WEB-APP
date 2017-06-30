@@ -7,6 +7,9 @@ a {
   color: #2E4172;
   word-wrap:break-word;
 }
+h1{
+  font-size: 60px;
+}
 hr{
   margin: 0;
 }
@@ -23,12 +26,13 @@ hr.hr-top-white{
   padding: 5px 30px;
 }
 
-.btn-signup {
+.btn-head {
   border: 10px solid #D93C3C;
   border-radius: 5px;
   background-color: white;
-  font-size: 60px; 
+  font-size: 40px; 
   color: #D93C3C;
+  margin-top: 0.5em;
 }
 .color-red{
   color: #D93C3C;
@@ -147,11 +151,11 @@ hr.hr-top-white{
     #userbar-coll{
       visibility: visible;
     }
+    .carousel-textbox>h1 {
+      font-size: 40px;
+    }
     h2{
       font-size: 15px;
-    }
-    h3{
-      font-size: 12px;
     }
     p{
       font-size: 8px;
@@ -196,12 +200,9 @@ hr.hr-top-white{
     -ms-transform: translate3d(-50%,-50%,0);
     -o-transform: translate3d(-50%,-50%,0);
     transform: translate3d(-50%,-50%,0);
+    width: 100%;
 }
 
-.carousel-textbox>h1 {
-  font-size: 60px;
-
-}
 /******Article*******/
 .img-center{
   margin: 1em 1em;
