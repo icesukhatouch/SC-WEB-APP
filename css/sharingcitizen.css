@@ -5,7 +5,10 @@ a {
   overflow-x: hidden;
   height: 100%;
   color: #2E4172;
-  word-wrap:break-word;
+  word-wrap: break-word;
+}
+a:hover{
+  text-decoration: none;
 }
 h1{
   font-size: 60px;
@@ -27,10 +30,18 @@ hr.hr-top-white{
 }
 
 .btn-head {
-  border: 10px solid #D93C3C;
+  border: 7px solid #D93C3C;
   border-radius: 5px;
   background-color: white;
   font-size: 40px; 
+  color: #D93C3C;
+  margin-top: 0.5em;
+}
+.btn-connect{
+  border: 3px solid #D93C3C;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 15px; 
   color: #D93C3C;
   margin-top: 0.5em;
 }
@@ -154,7 +165,13 @@ hr.hr-top-white{
     .carousel-textbox>h1 {
       font-size: 40px;
     }
+    h1{
+      font-size: 30px;
+    }
     h2{
+      font-size: 20px;
+    }
+    h4{
       font-size: 15px;
     }
     p{
@@ -202,6 +219,10 @@ hr.hr-top-white{
     transform: translate3d(-50%,-50%,0);
     width: 100%;
 }
+.carousel-textbox a{
+   color: #D93C3C;
+}
+
 
 /******Article*******/
 .img-center{
@@ -219,15 +240,13 @@ hr.hr-top-white{
 }
 .about-us-name{
   margin: 1em 1em 1em 2em ;
+  padding-top: 1em;
   display: inline-block;
 
 }
 
 /******About us*******/
-.rownav{
-  height: 50px;
-  background-color: white;
-}
+
 
 /******Profile*******/
 
@@ -282,7 +301,7 @@ hr.hr-top-white{
   margin: 0;
   padding: 1.3em 0;
 }
-.headcontent-article{
+.headcontent-experience{
   background: #D93C3C;
   color: white;
   margin: 0;
@@ -295,15 +314,15 @@ hr.hr-top-white{
   padding: 1.3em 0;
 }
 .content-blog{
-  margin-top: 1.5em;
+  margin: 1.5em 1.5em 0 1.5em;
 }
 
 .split-page-people{
   margin-top: 50px;
   background: #2A3F6B;
   color: white;
-  padding-top: 1.3em;
-  padding-bottom: 1.3em;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
   padding-left: 1.3em;
 }
 .split-page-article{
@@ -311,16 +330,16 @@ hr.hr-top-white{
   margin-bottom: 0;
   background: #D93C3C;
   color: white;
-  padding-top: 1.3em;
-  padding-bottom: 1.3em;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
   padding-left: 1.3em;
 }
 
 .split-page-project{
   margin-top: 50px;
   background: #FCCB2D;
-  padding-top: 1.3em;
-  padding-bottom: 1.3em;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
   padding-left: 1.3em;
 }
 
@@ -371,18 +390,28 @@ hr.hr-top-white{
 .profile-info h2 {
 	color: #E8E8E8;
     letter-spacing: 4px;
-	  padding-bottom: 12px;
 				}
 				
 .profile-info span {
 	display: block;
     font-size: 12px;
-    color: #4CB493;
+    color: #FCCB2D;
 	letter-spacing: 2px;
 			}
+.profile-info h3 {
+  display: inline-block;
+	color: #E8E8E8;
+	}
+.profile-info p {
+  display: inline-block;
+	color: #E8E8E8;
+	}
 
 .profile-info a {
-	 color: #4CB493;
+	 color: #FCCB2D;
+		}
+.profile-info button a {
+	 color: #D93C3C;
 		}
 .profile-info i {
 	    padding: 15px 35px 0px 35px;
@@ -436,4 +465,30 @@ hr.hr-top-white{
   right: 0;
   height: 1px;
   background: #CECECE;
+}
+
+
+.card {
+    margin-bottom: 1.5em;
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
 }
